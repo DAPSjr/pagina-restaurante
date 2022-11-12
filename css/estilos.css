@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+#vinosfondo{
+    background-image: url("../img/fondoindex/vinos.jpg");
+    position: relative;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+#ensaladafondo{
+    background-image: url("../img/fondoindex/ensalada.jpg");
+    position: relative;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+#comidafondo{
+    background-image: url("../img/fondoindex/Asado-Getty-5.jpg");
+    position: relative;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+#indexfondo{
+    background-image: url("../img/fondoindex/parrilla.jpg");
+    position: relative;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.menus{
+    background: rgba(254, 201, 161, 0.2);
+    width: 100%;
+    font-size: 15px;
+    background-size: cover;
+        background-repeat:no-repeat;
+      background-position: center center;
+      text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    }
+
+.inicio{
+    background: rgba(254, 201, 161, 0.2);
+    width: 100%;
+    background-size: cover;
+        background-repeat:no-repeat;
+      background-position: center center;
+      font-size: 30px;
+      text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    }
+#logo{
+    width: 200px;
+    float: left;
+}
+#titulo{
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+nav{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+aside{
+    background-color: blue;
+}
+article{
+    width: 100%;
+    height: 400px;
+  background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+footer{
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: auto;
+    z-index: 1;
+    opacity: 0.7;
+    background-image: url("../img/footer/piepag.jpg");
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+ul{
+}
+.botones{
+    text-align: center;
+    list-style: none;
+    margin-top: 200px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    font-style: normal;
+}
+.botones2{
+    text-align: left;
+
+    margin-left: 200px;
+    list-style: none;
+    margin-top: 150px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    font-weight: 10px;
+}
+
+.flex-item{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 50px;
+}
+.imagenes{
+    width: 600px;
+    height: 650px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
